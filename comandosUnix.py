@@ -25,3 +25,5 @@ git init #passa a versionar a pasta atual
 git status #status dos arquivos na pasta
 git add 'arquivo' #põe o arquivo na área de preparação (stage area)
 git commit -m 'mensagem' #põe arquivos da área de preparação para o repositório (commit area)
+git checkout #discarta mudanças em arquivos comitados no diretório de trabalho
+git reset #tira arquivos da área de preparação
