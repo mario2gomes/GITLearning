@@ -26,5 +26,10 @@ git status #status dos arquivos na pasta
 git add 'arquivo' #põe o arquivo na área de preparação (stage area)
 	git add . #põe na área de preparação todos os arquivos da pasta de trabalho
 git commit -m 'mensagem' #põe arquivos da área de preparação para o repositório (commit area)
+	git commit -am 'mensagem' #põe arquivos direto da pasta de trabalho para o repositório (se já foram comitados anteriormente)
 git checkout #discarta mudanças em arquivos comitados no diretório de trabalho
 git reset #tira arquivos da área de preparação
+git log #verificar o histórico
+	git log --oneline #histórico resumido
+	git log -n 3 #histórico dos últimos 3 commit's
+gitk #histórico em interface gráfica
